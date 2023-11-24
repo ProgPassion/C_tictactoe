@@ -36,10 +36,10 @@ int writeField(int x, int y, char player, char field[3][3]) {
 
 void printWinner(char winner) {
         if(winner == ' ') {
-                printf("There is no winner, its a draw!\n");
+                printf("Nuk ka fitues, loja mbaroj barazim!\n");
         }
         else {
-                printf("Player %c is the winner.\n", winner);
+                printf("Lojtari %c eshte fituesi.\n", winner);
         }
 }
 
